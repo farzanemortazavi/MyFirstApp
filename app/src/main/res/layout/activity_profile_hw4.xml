@@ -81,14 +81,12 @@
             />
         <EditText
             android:id="@+id/edtName"
+            style="@style/edttxt"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:background="#4300BCD4"
             android:hint="Enter your first name"
             android:inputType="text"
-            android:textSize="20sp"
-            android:fontFamily="cursive"
-            android:textStyle="bold"
+
             />
     </LinearLayout>
 
@@ -117,14 +115,12 @@
         />
         <EditText
             android:id="@+id/edtFamily"
+            style="@style/edttxt"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:background="#4300BCD4"
             android:hint="Enter your last name"
             android:inputType="text"
-            android:textSize="20sp"
-            android:fontFamily="cursive"
-            android:textStyle="bold"
+
             />
     </LinearLayout>
     <LinearLayout
@@ -152,14 +148,11 @@
         />
         <EditText
             android:id="@+id/edtAge"
+            style="@style/edttxt"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:background="#4300BCD4"
             android:hint="Enter your Age"
             android:inputType="number"
-            android:textSize="20sp"
-            android:fontFamily="cursive"
-            android:textStyle="bold"
             />
     </LinearLayout>
     <LinearLayout
@@ -187,14 +180,12 @@
         />
         <EditText
             android:id="@+id/edtEmail"
+            style="@style/edttxt"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:background="#4300BCD4"
             android:hint="Enter your email"
             android:inputType="textEmailAddress"
-            android:textSize="20sp"
-            android:fontFamily="cursive"
-            android:textStyle="bold"
+
             />
     </LinearLayout>
 
@@ -208,15 +199,12 @@
         android:gravity="center_horizontal">
         <Button
             android:id="@+id/btnPreview"
+            style="@style/btnStyle"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="Preview"
             android:gravity="center"
-            android:textSize="20sp"
-            android:fontFamily="cursive"
-            android:textStyle="bold"
-            android:background="#E6009688"
-            android:textColor="#FFF"/>
+/>
 
 
     </LinearLayout>

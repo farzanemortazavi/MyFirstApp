@@ -41,17 +41,14 @@
         />
         <Button
             android:id="@+id/btnDrawer"
+            style="@style/btnStyle"
             android:layout_width="200dp"
             android:layout_height="35dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:background="#E6009688"
-            android:textColor="#FFF"
             android:text="Open Drawer"
             android:gravity="center"
-            android:textSize="20sp"
-            android:fontFamily="cursive"
-            android:textStyle="bold"
+
 
             />
     </LinearLayout>

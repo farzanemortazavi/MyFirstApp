@@ -226,27 +226,21 @@
         android:gravity="center_horizontal">
         <Button
             android:id="@+id/btnSaveProfile"
+            style="@style/btnStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Save"
             android:gravity="center"
-            android:textSize="20sp"
-            android:fontFamily="cursive"
-            android:textStyle="bold"
-            android:background="#E6009688"
             android:layout_marginRight="10dp"
-            android:textColor="#FFF"/>
+           />
         <Button
             android:id="@+id/btnEditProfile"
+            style="@style/btnStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Edit"
             android:gravity="center"
-            android:textSize="20sp"
-            android:fontFamily="cursive"
-            android:textStyle="bold"
-            android:background="#E6009688"
-            android:textColor="#FFF"/>
+/>
 
     </LinearLayout>
 

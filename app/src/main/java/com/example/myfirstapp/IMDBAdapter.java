@@ -17,11 +17,14 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.loopj.android.http.AsyncHttpClient.log;
+
 public class IMDBAdapter extends RecyclerView.Adapter<IMDBAdapter.ImdbHolder> {
 
    List<Search> lstMovies;
     IMDBAdapter( List<Search> lst){
         lstMovies=lst;
+
     }
 
     @NonNull
@@ -41,7 +44,6 @@ public class IMDBAdapter extends RecyclerView.Adapter<IMDBAdapter.ImdbHolder> {
         holder.txtImdb.setText(name);
         holder.txtYear.setText(year);
         Picasso.get().load(poster).into(holder.imgPoster);
-
 
     }
 

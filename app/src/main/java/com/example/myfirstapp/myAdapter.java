@@ -57,6 +57,10 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.myHolder> {
                             Intent i3 = new Intent(myBtn.getContext(),IMDBSearchActivity.class);
                             myBtn.getContext().startActivity(i3);
                             break;
+                        case 3:
+                            Intent i4 = new Intent(myBtn.getContext(),IMDBOfflineList.class);
+                            myBtn.getContext().startActivity(i4);
+                            break;
 
                     }
 

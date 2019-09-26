@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         menuList.add("Dial");
         menuList.add("Profile");
         menuList.add("IMDB Search");
+        menuList.add("IMDB Offline");
 
 
         myAdapter adapter=new myAdapter(menuList);

@@ -36,12 +36,9 @@
         android:id="@+id/btnDial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        style="@style/btnStyle"
         android:text="Dial"
         android:gravity="center"
-        android:textSize="20sp"
-        android:fontFamily="cursive"
-        android:textStyle="bold"
-        android:background="#E6009688"
-        android:textColor="#FFF"/>
+/>
 
 </LinearLayout>
